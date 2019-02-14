@@ -20,4 +20,16 @@ monthConversions = {
     "Dec": "December"
 }
 
+#--- Printing the whole dict
 print(monthConversions)
+
+#--- Print a specific value
+print(monthConversions["Nov"])
+
+#--- Print using get() via key searching
+print(monthConversions.get("Dec"))
+
+#--- Print using get() via key searching AND add a message to replace None output
+print(monthConversions.get("December", "Not a valid key"))
+
+
