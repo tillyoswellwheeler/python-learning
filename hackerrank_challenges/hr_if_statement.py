@@ -22,11 +22,19 @@ def if_n_conditional(n):
                 print("Weird")
             elif n > 20:
                 print("Not Weird")
-            else:
-                # Returned nullx
+    #         else:
+    #             # Returned nullx
+    # else:
+    #     # Returned null
+
+
+if_n_conditional(5)
+
+def odd_even(n):
+    if n % 2 == 0:
+        print("even")
     else:
-        # Returned null
+        print("odd")
 
-
-if_n_conditional(22)
+odd_even(130000)
 

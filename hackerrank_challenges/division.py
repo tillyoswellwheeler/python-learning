@@ -12,3 +12,12 @@
 
 # INPUT TYPE
 #--- The first line contains the first integer, a . The second line contains the second integer, b .
+
+def calc_division(a, b):
+    integer_div = a // b
+    float_div = a / b
+    print(integer_div)
+    print(float_div)
+    return integer_div, float_div
+
+calc_division(a,b)
