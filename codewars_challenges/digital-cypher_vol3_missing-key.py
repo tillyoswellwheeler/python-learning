@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # -----------------------------------------------
 # CodeWars -- Digital cypher vol 3 - missing key
 # -----------------------------------------------
@@ -62,12 +64,21 @@ def pattern_identify():
     result = []
     first_num = sequence[0]
     second_num = sequence[1]
+    print(first_num)
+    print("start for loop")
     for index in sequence:
         while index != first_num:
             result.append(index)
             print(result)
             if index == first_num:
                 if index == second_num:
+                    print(result)
+                    return result
+                else:
+                    break
+            else:
+                break
+        print(result)
 
 
 #    print(first_num)
