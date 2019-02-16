@@ -17,8 +17,8 @@
 # For Loops
 
 #--- Looping through letters
-# for letter in "How to Loop through a string":
-#     print(letter)
+for letter in "How to Loop through a string":
+    print(letter)
 
 #--- Looping through a list
 
@@ -43,8 +43,8 @@
 
 #--- CONDITIONALS AND LOOPS
 
-for index in range(5):
-    if index == 0:
-        print("First Iteration")
-    else:
-        print("Not first")
+# for index in range(5):
+#     if index == 0:
+#         print("First Iteration")
+#     else:
+#         print("Not first")

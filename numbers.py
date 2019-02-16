@@ -2,8 +2,6 @@
 # Python Learning -- Numbers
 #------------------------------------
 
-from math import *
-
 #------------------------------------
 # Using the print() function
 
