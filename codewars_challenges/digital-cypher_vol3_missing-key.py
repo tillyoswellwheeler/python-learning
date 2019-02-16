@@ -46,7 +46,32 @@ def difference_code_dict():
     array_mat = np.array(arrays)  # Convert the list of lists to an array
     difference = np.subtract(array_mat[0], array_mat[1])
     positive_result = abs(difference)  # Converting to positive ints
-    print(type(positive_result))
+    return positive_result
+
+
+def pattern_identify():
+    sequence = difference_code_dict()
+    # create empty list
+    # store sequence[0] as a variable
+    # use a for loop to run through the list
+    # while index != sequence[0] variable
+    # add index value to empty list
+    # if index == sequence[0] variable
+    # check next index == empty list [1]
+    # if next index == empty list [1] then return empty list
+    result = []
+    first_num = sequence[0]
+    second_num = sequence[1]
+    for index in sequence:
+        while index != first_num:
+            result.append(index)
+            print(result)
+            if index == first_num:
+                if index == second_num:
+
+
+#    print(first_num)
+#    print(result)
 
 
 def user_input_code():
@@ -56,12 +81,11 @@ def user_input_code():
     return ints_code_list
 
 
-difference_code_dict()
+# difference_code_dict()
+pattern_identify()
 #
 # print(check_list_against_dict())
 
 
 # # using ''.join makes the new list a single string
 # print(''.join(out))
-
-
