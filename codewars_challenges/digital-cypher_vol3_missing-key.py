@@ -71,6 +71,10 @@ def pattern_identify():
     second_num = sequence[1]
     result.append(first_num)
     print("start for loop")
+
+    result = itr.takewhile(next(new_key_iter) =!
+
+
     for index in range(len(sequence)):
         for index in sequence:
             print(index)
