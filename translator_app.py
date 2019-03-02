@@ -24,6 +24,13 @@
 # eyes --> mince-pies
 # road --> frog-and-toad
 #
+
+# AMERICAN WORDS
+# looking good --> fleek
+# having a meeting --> having a pow-wow
+# that's crazy --> get out of here
+
+
 # mystr = 'This is a string, with words!'
 # wordList = re.sub("[^\w]", " ",  mystr).split()
 
@@ -35,57 +42,88 @@ import re
 #
 # print([dic.get(n, n) for n in a])
 
-def convert_weather(self, description):
-    """
-    Using a dictionary to create a switch statement alternative
-    """
-    conditions = {
-        'clear sky': 'clear',
-        'few clouds': 'clouds with some sunshine',
-        'scattered clouds': 'cloudy',
-        'broken clouds': 'cloudy',
-        'shower rain': 'showers',
-        'thunderstorm': 'thunder and lightning',
-        'mist': 'fog'
-    }
 
-    if description in conditions:
-        return conditions.get(description, "Look out of the window.")
-    else:
-        return description
+# def cockney_replace_words():
+#     words_list = user_string_input()
+#
+#     cockney_slang = {
+#         "look": "butcher's hook",
+#         "talk": "rabbit and pork",
+#         "car": "jam jar",
+#         "phone": "dog and bone",
+#         "alone": "on one's Jack Jones",
+#         "pinch": "half-inch",
+#         "lie": "porky-pie",
+#         "skint": "boracic lint",
+#         "wig": "syrup of figs",
+#         "facts": "brass-tacks",
+#         "money": "bread and honey",
+#         "feet": "plates-of-meat",
+#         "wife": "trouble-and-strife",
+#         "eyes": "mince-pies",
+#         "road": "frog-and-toad",
+#     }
 
-def cockney_replace_words():
-    words_list = user_string_input()
+import re
 
-    cockney_slang = {
-        "look": "butcher's hook",
-        "talk": "rabbit and pork",
-        "car": "jam jar",
-        "phone": "dog and bone",
-        "alone": "on one's Jack Jones",
-        "pinch": "half-inch",
-        "lie": "porky-pie",
-        "skint": "boracic lint",
-        "wig": "syrup of figs",
-        "facts": "brass-tacks",
-        "money": "bread and honey",
-        "feet": "plates-of-meat",
-        "wife": "trouble-and-strife",
-        "eyes": "mince-pies",
-        "road": "frog-and-toad",
-    }
+class Translation():
+    def __init__(self, text_for_translation, dict_for_translation):
+        self.text_for_translation = text_for_translation
+        self.dict_for_translation = dict_for_translation
+        if dict_for_translation == "cockney rhyming slang":
+            dictionary = {
+                "look": "butcher's hook",
+                "talk": "rabbit and pork",
+                "car": "jam jar",
+                "phone": "dog and bone",
+                "alone": "on one's Jack Jones",
+                "pinch": "half-inch",
+                "lie": "porky-pie",
+                "skint": "boracic lint",
+                "wig": "syrup of figs",
+                "facts": "brass-tacks",
+                "money": "bread and honey",
+                "feet": "plates-of-meat",
+                "wife": "trouble-and-strife",
+                "eyes": "mince-pies",
+                "road": "frog-and-toad",
+            }
+            # print(dictionary)
+            return dictionary
+        elif dict_for_translation == "american slang":
+            dictionary = {
+                "looking good" : "fleek",
+                "having a meeting" : "having a pow-wow",
+                "that's crazy" : "get out of here",
+            }
+            # print(dictionary)
+            return dictionary
+        else:
+            print("Invalid Entry")
+            return TypeError
 
-    if words_list in cockney_slang:
-        return cockney_slang.get(words_list, )
-    else:
-        return words_list
+trans_1 = Translation("Look at the facts", "")
 
-def user_string_input():
-    user_str = input("Enter your story for translation: ")
-    words_list = user_str.split()
 
-    print(words_list)
-    return words_list
 
+    def make_trans_cockney(self, dict_cockney):
+        words_list = user_string_input()
+        word = words_list.group()
+        print(dict_cockney.get(word.lower(), word))
+        return dict_cockney.get(word.lower(), word)
+
+    # translated = re.sub(r'\w+', maketrans(right_dict), sentence)
+    # print (translated)
+#
+#     @staticmethod
+#     def user_string_input():
+#         user_str = input("Enter your story for translation: ")
+#         words_list = user_str.split()
+#
+#         print(words_list)
+#         return words_list
+#
+#
+# if __main__ is
 
 
