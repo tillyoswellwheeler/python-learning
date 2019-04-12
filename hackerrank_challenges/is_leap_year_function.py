@@ -17,13 +17,9 @@
 
 
 def is_leap(year):
-    leap = False
-    isleap = True
+    result = (year % 4 == 0) and (year % 400 == 0 or year % 100 != 0)
+    return result
 
 
-    if year // 4:
-        if year is not // 100:
-        return isleap
-    # Write your logic here
 
-    return leap
+print(is_leap(2012))
