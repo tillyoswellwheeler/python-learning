@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d56f2803-2eb7-4f30-846a-a0f1499ae6e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackerrank_challenges/decorators_mobnum-cleanup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank_challenges/list_comprehensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank_challenges/print_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank_challenges/runner-up_score_finder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterator_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LPTHW/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank_challenges/is_leap_year_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank_challenges/is_leap_year_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerrank_challenges/runner-up_score_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank_challenges/runner-up_score_finder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hackerrank_challenges/decorators_mobnum-cleanup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="375">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LPTHW/Ex1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackerrank_challenges/runner-up_score_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -103,6 +110,7 @@
         <option value="$PROJECT_DIR$/hackerrank_challenges/list_comprehensions.py" />
         <option value="$PROJECT_DIR$/hackerrank_challenges/is_leap_year_function.py" />
         <option value="$PROJECT_DIR$/hackerrank_challenges/runner-up_score_finder.py" />
+        <option value="$PROJECT_DIR$/LPTHW/Ex1.py" />
       </list>
     </option>
   </component>
@@ -118,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,22 +134,16 @@
               <item name="python-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank_challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,11 +317,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="320" y="23" width="1115" height="783" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17824498" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17824498" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978038" visible="true" weight="0.3299566" />
@@ -336,7 +338,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
     <entry file="file://$PROJECT_DIR$/numbers_task01.py" />
     <entry file="file://$PROJECT_DIR$/imput_from_users.py" />
     <entry file="file://$PROJECT_DIR$/calculator.py" />
@@ -347,13 +348,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/anaconda3/lib/python3.7/xmlrpc/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Applications/anaconda3/lib/python3.7/xmlrpc/client.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -361,13 +356,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/anaconda3/lib/python3.7/decimal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Applications/anaconda3/lib/python3.7/decimal.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -417,13 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/anaconda3/lib/python3.7/site-packages/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-979">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Applications/anaconda3/lib/python3.7/site-packages/numpy/__init__.py" />
     <entry file="file://$PROJECT_DIR$/numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -662,15 +645,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank_challenges/decorators_mobnum-cleanup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="375">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LPTHW/Ex1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank_challenges/runner-up_score_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

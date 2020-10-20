@@ -14,14 +14,15 @@
 # First stage order the list highest to lowest
 # Second stage select and print index 1
 
-def find_runnerup_score(scores):
-    scores_no_duplicates = list(set(scores))
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = set(map(int, input().split()))
+    # print(arr) # checking
+
+    scores_no_duplicates = list(arr)
     scores_no_duplicates.sort(reverse=True)
-    print(scores_no_duplicates)
+    # print(scores_no_duplicates)
     runnerup_score = scores_no_duplicates[1]
-    print(runnerup_score)
-    return runnerup_score
 
-scores = []
-
-find_runnerup_score([2, 3, 6, 6, 5])
+    print(runnerup_score) # checking
